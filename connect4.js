@@ -24,6 +24,7 @@ class Game {
 
   makeHtmlBoard() {
     const board = document.getElementById('board');
+    board.innerHTML = '';
   
     const top = document.createElement('tr');
     top.setAttribute('id', 'column-top');
